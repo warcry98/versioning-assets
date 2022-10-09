@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Versioning your assets",
   "main": "bin/index.js",
+  "bin": "./bin/index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "tap ./test/*.test.js"
   },
   "repository": {
@@ -18,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/warcry98/versioning-assets/issues"
   },
-  "homepage": "https://github.com/warcry98/versioning-assets#readme"
+  "homepage": "https://github.com/warcry98/versioning-assets#readme",
+  "dependencies": {
+    "async": "^3.2.4",
+    "commander": "^9.4.1",
+    "glob": "^8.0.3",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "curry": "^1.2.0",
+    "tap": "^16.3.0"
+  }
 }
