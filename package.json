@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Versioning your assets",
   "main": "bin/index.js",
-  "bin": "./bin/index.js",
+  "bin": {
+    "versioning-assets": "bin/index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "tap ./test/main.test.js"
@@ -33,5 +35,9 @@
   },
   "tap": {
     "check-coverage": false
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
