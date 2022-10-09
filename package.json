@@ -1,0 +1,22 @@
+{
+  "name": "versioning-assets",
+  "version": "0.0.1",
+  "description": "Versioning your assets",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "tap ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warcry98/versioning-assets.git"
+  },
+  "keywords": [
+    "versioning"
+  ],
+  "author": "warcry98",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warcry98/versioning-assets/issues"
+  },
+  "homepage": "https://github.com/warcry98/versioning-assets#readme"
+}
